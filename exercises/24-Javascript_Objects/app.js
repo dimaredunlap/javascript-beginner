@@ -16,6 +16,15 @@ var person2 = {
     significant_other: person
 };
 
+var person3 = {
+    name: "Jimmy",
+    lastname: "Doe",
+    age: 13,
+    gender: "male",
+    lucky_numbers: [ 1, 2, 3, 4],
+    significant_other: null
+};
+
 var family = {
     lastname: "Doe",
     members: [person, person2]   //Array of objects, don't forget to add Jimmy
@@ -32,7 +41,8 @@ function addAllFamilyLuckyNumbers(anArray){
 }
 
 //Enter all your code here:
-
+var lucky_numbers = [1, 2, 3, 4, 6, 7, 8, 11, 13, 17];
+console.log(sumOfAllLuckyNumbers)
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 
